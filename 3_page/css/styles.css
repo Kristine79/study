@@ -1,0 +1,69 @@
+html, body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+    height: inherit;
+    overflow: hidden;
+}
+
+.header{
+    background: #c47;
+    height: 150px;
+}
+
+.menu{
+    background: #747;
+    height: 55px;
+}
+
+.menu li{
+    display: inline;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu li a{
+    color: inherit;
+    text-decoration: none;
+    line-height: 55px;
+}
+
+.content{
+    background: #eee;
+    min-height: 555px;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.content .left{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.content .item{
+    width: 200px;
+    background: #f90;
+    padding: 10px 30px;
+    float: left;
+    margin-right: 20px;
+}
+
+.content .item img{
+    width: 100%;
+}
+
+.content h1{
+    /* overflow: hidden; */
+    clear: both;
+}
+
+.footer{
+    background: #747;
+    height: 55px;
+}
